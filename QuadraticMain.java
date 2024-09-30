@@ -41,7 +41,7 @@ class Quadratic{
 	System.out.println("Roots are imaginary");
 	realpart=-b/(2*a);
 	imagpart = Math.sqrt(-d) / (2.0 * a);
-	System.out.println("Root1= " + realpart + " - " + imagpart + "i");
+	System.out.println("Root1= " + realpart + " + " + imagpart + "i");
 	System.out.println("Root2= " + realpart + " - " + imagpart + "i");
  
 }

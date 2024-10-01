@@ -53,6 +53,8 @@ class QuadraticMain{
 	Quadratic q=new Quadratic();
 	q.getd();
 	q.compute();
+	System.out.println("name:Keerthana H Bhat");
+	System.out.println("USN:1BM23CS148");
 	
 }
 }

@@ -1,0 +1,30 @@
+import CIE.Internals;  
+import SEE.Externals; 
+
+class Main {
+
+    public static void main(String args[]) {
+       
+        Internals internalStudent = new Internals();
+        
+       internalStudent.usn = "1BM23CS148";
+        internalStudent.name= "Keerthana H Bhat";
+        
+        internalStudent.sem=3;
+    
+        internalStudent.inputCIEmarks();   
+        internalStudent.calculateFinalMarks(); 
+        internalStudent.displayFinalMarks();  
+
+        Externals externalStudent = new Externals();
+        
+ 	 externalStudent.usn = "1BM23CS148";
+        externalStudent.name = "Keerthana H Bhat";
+       
+        externalStudent.sem=3;
+
+        externalStudent.inputSEEmarks();   
+        externalStudent.calculateFinalMarks(); 
+        externalStudent.displayFinalMarks();   
+    }
+}
